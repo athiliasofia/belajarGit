@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
+    <!-- Branch Login-Feature -->
     <h1>Ini Adalah Page 1</h1>
+    <h3>Page 1 Adalah Page Login</h3>
+    <form action="">
+        <label for="nama">Nama Pelajar:</label>
+        <input type="text" id="nama" name="nama">
+
+        <label for="nokp">No Kad Pengenalan</label>
+        <input type="text" id="nokp" name="nokp">
+
+        <label>Jantina:</label>
+        <input type="radio" id="lelaki" name="jantina" value="lelaki">
+        <label for="lelaki" style="display:inline;">Lelaki</label>
+        <input type="radio" id="perempuan" name="jantina" value="perempuan">
+        <label for="perempuan" style="display:inline;">Perempuan</label>
+        
+        <label for="bangsa">Bangsa:</label>
+        <input type="text" id="bangsa" name="bangsa">
+
+        <label for="emel">E-mel:</label>
+        <input type="email" id="emel" name="emel">
+
+        <label for="notel">No Tel:</label>
+        <input type="text" id="notel" name="notel">
+
+        <label for="alamat">Alamat:</label>
+        <textarea name="alamat" id="alamat" rows="4"></textarea>
+
+        <label for="kursus">Kursus:</label>
+        <select id="kursus" name="kursus">
+            <option value="">Sila Pilih Kursus</option>
+            <option value="Sijil Pembangunan Aplikasi">Sijil Pembangunan Aplikasi</option>
+            <option value="Sijil Multimedia Interaktif">Sijil Multimedia Interaktif</option>
+            <option value="Sijil Teknologi Rangkaian">Sijil Teknologi Rangkaian</option>
+            <option value="Sijil CADD Senibina">Sijil CADD Senibina</option>
+        </select>
+
+        <button type="submit">Hantar</button>
+    </form>
 </body>
 </html>
